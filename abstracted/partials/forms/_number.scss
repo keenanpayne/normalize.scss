@@ -1,0 +1,13 @@
+input { 
+
+  //
+  // Fix the cursor style for Chrome's increment/decrement buttons. For certain
+  // `font-size` values of the `input`, it causes the cursor style of the
+  // decrement button to change from `default` to `text`.
+  //
+  
+  &[type="number"] {
+    &::-webkit-inner-spin-button, 
+    &::-webkit-outer-spin-button { height: auto; }
+  }
+}

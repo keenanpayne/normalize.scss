@@ -1,0 +1,9 @@
+//
+// Address variable `h1` font-size and margin within `section` and `article`
+// contexts in Firefox 4+, Safari, and Chrome.
+//
+
+h1 {
+  @include font-size($h1-size);
+  margin: 0.67em 0;
+}
