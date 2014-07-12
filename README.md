@@ -25,6 +25,6 @@ Elsewhere
 
 **Keenan Payne**
 
-[Website](http://keenanpayne.com)
-[GitHub](http://github.com/keenanpayne)
-[Twitter](http://twitter.com/keenan_payne)
+- [Website](http://keenanpayne.com)
+- [GitHub](http://github.com/keenanpayne)
+- [Twitter](http://twitter.com/keenan_payne)
