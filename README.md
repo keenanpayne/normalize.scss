@@ -1,7 +1,7 @@
 Normalize.scss
 ==============
 
-This is an SCSS port of Nicolas Gallagher's [normalize.css](http://necolas.github.com/normalize.css/) that I originally used in my front-end framework [Concise](http://github.com/ConciseCSS/concise.css). This port comes in two forms: an all-inclusive file (`_normalize.scss` in the root folder) as well as an abstracted set of files (found in the `abstracted` folder).
+This is an [SCSS](http://sass-lang.com) port of Nicolas Gallagher's [normalize.css](http://necolas.github.com/normalize.css/) that I originally used in my front-end framework [Concise](http://github.com/ConciseCSS/concise.css). This port comes in two forms: an all-inclusive file (`_normalize.scss` in the root folder) as well as an abstracted set of files (found in the `abstracted` folder).
 
 Quickstart
 ==============
