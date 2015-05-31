@@ -3,9 +3,9 @@
 // normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
 // =============================================================================
 
-
+//
 // Variables
-// ====================================================================//
+// ====================================================================
 
 // Base font-family
 $base-font-family: sans-serif !default;
@@ -20,15 +20,15 @@ $base-line-height:  24px !default;
 $h1-size: 36px !default;
 
 
+//
 // Mixins
-// ====================================================================//
+// ====================================================================
 
 //
 // Passing in a single value will create font-sizing in 
 // pixels, rems as well as a proper line-height.
 // 
 //    `@include font-size(24px);`
-// 
 // 
 
 @mixin font-size($font-size, $line-height:true) {
@@ -61,8 +61,9 @@ html {
 body { margin: 0; }
 
 
+//
 // HTML5 display definitions
-// ====================================================================//
+// ====================================================================
 
 //
 // Correct `block` display not defined for any HTML5 element in IE 8/9.
@@ -120,8 +121,9 @@ audio:not([controls]) {
 template { display: none; }
 
 
+//
 // Links
-// ====================================================================//
+// ====================================================================
 
 //
 // Remove the gray background color from active links in IE 10.
@@ -140,8 +142,9 @@ a {
 }
 
 
+//
 // Text-level semantics
-// ====================================================================//
+// ====================================================================
 
 //
 // Address styling not present in IE 8/9/10/11, Safari, and Chrome.
@@ -210,8 +213,9 @@ sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 
 
+//
 // Embedded content
-// ====================================================================//
+// ====================================================================
 
 //
 // Remove border when inside `a` element in IE 8/9/10.
@@ -227,8 +231,9 @@ img { border: 0;}
 svg:not(:root) { overflow: hidden; }
 
 
+//
 // Grouping content
-// ====================================================================//
+// ====================================================================
 
 //
 // Address margin not present in IE 8/9 and Safari.
@@ -268,8 +273,9 @@ samp {
 
 
 
+//
 // Forms
-// ====================================================================//
+// ====================================================================
 
 //
 // Known limitation: by default, Chrome and Safari on OS X allow very limited
@@ -440,8 +446,9 @@ textarea { overflow: auto; }
 optgroup { font-weight: bold; }
 
 
+//
 // Tables
-// ====================================================================//
+// ====================================================================
 
 //
 // Remove most spacing between table cells.
