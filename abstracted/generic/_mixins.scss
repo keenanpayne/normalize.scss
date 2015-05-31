@@ -4,7 +4,6 @@
 // 
 //    `@include font-size(24px);`
 // 
-// 
 
 @mixin font-size($font-size, $line-height:true) {
     font-size: $font-size;
@@ -13,21 +12,4 @@
     @if $line-height == true {
         line-height: ceil($font-size / $base-line-height) * ($base-line-height / $font-size);
     }
-}
-
-
-// 
-// Proper vendor prefixes are created just by 
-// passing a property value and size value.
-// 
-//    `@include vendor(border-radius, 4px);`
-// 
-// 
-
-@mixin vendor($property, $value...) {
-	-webkit-#{$property}: $value;
-	-moz-#{$property}: $value;
-	-ms-#{$property}: $value;
-	-o-#{$property}: $value;
-	#{$property}: $value;
 }
