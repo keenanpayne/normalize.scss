@@ -1,6 +1,6 @@
 // =============================================================================
 // Normalize.scss based on Nicolas Gallagher and Jonathan Neal's
-// normalize.css v3.0.1 | MIT License | git.io/normalize
+// normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
 // =============================================================================
 
 
@@ -60,8 +60,8 @@ $h1-size: 36px !default;
 
 //
 // 1. Set default font family to sans-serif.
-// 2. Prevent iOS text size adjust after orientation change, without disabling
-//  user zoom.
+// 2. Prevent iOS and IE text size adjust after device orientation change, 
+//    without disabling user zoom.
 //
 
 html {
@@ -82,7 +82,8 @@ body { margin: 0; }
 
 //
 // Correct `block` display not defined for any HTML5 element in IE 8/9.
-// Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+// Correct `block` display not defined for `details` or `summary` in IE 10/11
+// and Firefox.
 // Correct `block` display not defined for `main` in IE 11.
 //
 
@@ -94,6 +95,7 @@ figure,
 footer,
 header,
 hgroup,
+menu,
 main,
 nav,
 section,
@@ -127,7 +129,7 @@ audio:not([controls]) {
 
 //
 // Address `[hidden]` styling not present in IE 8/9/10.
-// Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+// Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
 //
 
 [hidden], 
@@ -142,10 +144,11 @@ template { display: none; }
 //
 
 a {
-  background: transparent;
+  background-color: transparent;
   
   //
-  // Improve readability when focused and also mouse hovered in all browsers.
+  // Improve readability of focused elements when they are also in an 
+  // active/hover state.
   //
   
   &:active, 
@@ -397,8 +400,7 @@ input {
   
   //
   // 1. Address `appearance` set to `searchfield` in Safari and Chrome.
-  // 2. Address `box-sizing` set to `border-box` in Safari and Chrome
-  //  (include `-moz` to future-proof).
+  // 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
   //
   
   &[type="search"] {
